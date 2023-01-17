@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple example steps.
 - Have `visual-studio code` or any other code editor installed on your computer.
 
 ### Setup
-- In order to get a copy of this project you need to download it from https://github.com/Profsain/myrailblog
+- In order to get a copy of this project you need to download it from https://github.com/Profsain/rorblog
 - Extract the zipped file and open it in your code editor
 ### Install
 - Run the command bellow in your terminal to get all required files
@@ -52,7 +52,7 @@ rspec spec
 
 👤 **Husseini Mudi Profsain**
 
-- GitHub: [@githubhandle](https://github.com/Profsai)
+- GitHub: [@githubhandle](https://github.com/Profsain)
 - Twitter: [@twitterhandle](https://twitter.com/profsain)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/profsain)
 
@@ -60,7 +60,7 @@ rspec spec
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Profsain/myrailsblog/issues/).
+Feel free to check the [issues page](https://github.com/Profsain/rorblog/issues/).
 
 ## Show your support
 
