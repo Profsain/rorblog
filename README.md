@@ -37,8 +37,6 @@ Ruby on Rails blog web app is a fully functional blog application that will show
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML</a></li>
-    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
     <li><a href="https://rubyonrails.org/">ERB</a></li>
   </ul>
 </details>
