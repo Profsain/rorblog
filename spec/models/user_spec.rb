@@ -52,23 +52,5 @@ RSpec.describe User, type: :model do
       user2 = User.new(name: 'John', photo: 'https://www.google.com', bio: 'This is a bio')
       expect(user2).to_not be_valid
     end
-
-    it '@user.fetch_recent_posts returns 3 posts' do
-      User.create(
-        name: 'John Doe',
-        photo: 'https://picsum.photos/200/300',
-        bio: 'Teacher from Nigeria',
-        posts_counter: 0
-      )
-    end
-
-    it 'should return user last 3 posts' do
-      User.create(
-        name: 'John Doe',
-        photo: 'https://picsum.photos/200/300',
-        bio: 'Teacher from Nigeria',
-        posts_counter: 0
-      )
-    end
   end
 end
