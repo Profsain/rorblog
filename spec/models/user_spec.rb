@@ -9,6 +9,7 @@ RSpec.describe User, type: :model do
       posts_counter: 0
     )
   end
+  
   before { subject.save }
 
   describe 'Validations' do
