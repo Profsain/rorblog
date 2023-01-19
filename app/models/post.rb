@@ -9,7 +9,7 @@ class Post < ApplicationRecord
   validates :body, presence: true, length: { minimum: 3, maximum: 1000 }
   validates :comments_counter, numericality: { greater_than_or_equal_to: 0 }
   validates :likes_counter, numericality: { greater_than_or_equal_to: 0 }
-  
+
   # update post counter
   def increment_post_counter
     author.increment!(:posts_counter)
