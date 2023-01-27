@@ -123,6 +123,10 @@ rspec spec
 - Twitter: [@twitterhandle](https://twitter.com/profsain)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/profsain)
 
+## Future Features
+- Photos upload
+- Social media sharing of post
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
