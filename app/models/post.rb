@@ -1,5 +1,5 @@
 class Post < ApplicationRecord
-  belongs_to :author, class_name: 'User', foreign_key: 'author_id'
+  belongs_to :author, foreign_key: 'author_id'
   has_many :comments
   has_many :likes
   after_save :increment_post_counter
@@ -21,5 +21,10 @@ class Post < ApplicationRecord
 
   def fetch_recent_likes
     likes.order(created_at: :desc).limit(5)
+  end
+
+  # Return 5 most recent posts
+  def recent_posts
+    Post.order(created_at: :desc).limit(5)
   end
 end
