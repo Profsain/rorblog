@@ -1,1 +1,23 @@
 <h1>List all users</h1>
+<% @users.each do |user| %>
+  <%= link_to user do %>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img 
+            src="https://c8.alamy.com/comp/2G7FT9E/default-avatar-photo-placeholder-grey-profile-picture-icon-man-in-t-shirt-2G7FT9E.jpg" 
+            alt="<%= user.name%>"
+            class="img-fluid rounded-start"
+          >
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"><%= user.name %></h5>
+            <p class="card-text"><%= user.bio %></p>
+            <p class="card-text"><small class="text-muted">Number of Post: <%= user.posts_counter %></small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+<% end %>

@@ -22,4 +22,9 @@ class Post < ApplicationRecord
   def fetch_recent_likes
     likes.order(created_at: :desc).limit(5)
   end
+
+  # Return 5 most recent posts
+  def recent_posts
+    Post.order(created_at: :desc).limit(5)
+  end
 end
